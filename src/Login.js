@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { initializeApp } from "firebase/app";
 import { getAuth,signInWithEmailAndPassword } from "firebase/auth";
