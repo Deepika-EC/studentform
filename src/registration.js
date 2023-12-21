@@ -53,7 +53,9 @@ const auth=getAuth()
    }
 
     return(
-        <div style={{backgroundImage:`url("https://directlinedev.com/media/cases/rooney/header/background_1_zM58lsj.desktop.jpeg")`,backgroundRepeat:"no-repeat",backgroundSize:"cover",padding: "30px",minHeight:"100vh"}}>
+        <div style={{backgroundImage:`url("https://directlinedev.com/media/cases/rooney/header/background_1_zM58lsj.desktop.jpeg")`,backgroundRepeat:"no-repeat",backgroundSize:"cover",padding: "30px",minHeight:"100vh",display: "flex",
+        justifyContent: "center",
+        alignItems: "center",}}>
         <div className="container" style={{width:"450px"}}>
             <div className="card m-3 p-3" style={{backgroundColor:"rgba(15, 15, 15, 0.63)",color:"whitesmoke"}}>
                 <div className="card-title text-center">
